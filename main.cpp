@@ -11,7 +11,7 @@ int main(){
         std::cout << "Failed to create directory" << std::endl;
         return -1;
     }
-    std::cout << "Filesystem accessed!" << std::endl;
+    std::cout << "Filesystem accessed !" << std::endl;
     ret = boost::filesystem::remove(path);
     if(!ret) {
         std::cout << "Failed to remove the directory" << std::endl;
